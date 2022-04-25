@@ -29,7 +29,7 @@ const reducer = (state = [], action) => {
                 }
                 return newState
             }
-        case 'removeCardItem':
+        case 'removeCartItem':
             {
                 // payload: id
                 const newState = [...state]
